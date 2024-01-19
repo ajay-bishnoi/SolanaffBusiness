@@ -124,7 +124,9 @@
   color: #f4241e;
 }
 /* -----------------------------------/ popularized section /--------------------- */
-
+.max_806 {
+  max-width: 805px;
+}
 .max591 {
   max-width: 591px;
 }
@@ -214,7 +216,7 @@
 .accordion-button::after {
   stroke-width: 3px !important;
   stroke: #000 !important;
-  width: 40px !important;
+  width: 20px !important;
 }
 .accordion-button {
   padding: 23px 25px 21px 31px !important;
@@ -266,40 +268,32 @@
 .setPosition9 {
   top: 4%;
   left: 23%;
-  z-index: -1;
 }
 .setPosition10 {
   bottom: 32%;
   left: 2%;
-  z-index: -1;
 }
 .setPosition11 {
   top: 8%;
   right: 6%;
-  z-index: -1;
 }
 .setPosition12 {
   bottom: 15%;
   right: 17%;
-  z-index: -1;
 }
 .setPosition13 {
   bottom: 32%;
   right: 6%;
-  z-index: -1;
 }
 .setPosition14 {
   top: 12%;
   right: 24%;
-  z-index: -1;
 }
 .setPosition15 {
   left: 6%;
   top: 5%;
-  z-index: -1;
 }
 .setPosition16 {
   bottom: 32%;
   left: 16%;
-  z-index: -1;
 }

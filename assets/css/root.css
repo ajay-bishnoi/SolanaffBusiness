@@ -92,16 +92,28 @@
     gap: 20px;
   }
   .pt_73 {
-    padding-top: 60px;
+    padding-top: 70px;
   }
   .my_24_48 {
     margin: 10px 0 35px;
   }
   .py_115 {
-    padding: 90px 0;
+    padding: 80px 0;
+  }
+  .py_73_106 {
+    padding: 80px 0;
+  }
+  .py_29_58 {
+    padding: 70px 0;
   }
   .mt_97 {
-    margin-top: 85px;
+    margin-top: 80px;
+  }
+  .py_58_44 {
+    padding: 70px 0;
+  }
+  .py_42_68 {
+    padding: 70px 0;
   }
 }
 @media (max-width: 992px) {
@@ -136,7 +148,6 @@
     height: 4px;
     display: block;
     transition: 350ms linear;
-    background-color: red;
     border-radius: 10px;
   }
   .menu span:nth-child(2) {
@@ -144,7 +155,6 @@
     height: 4px;
     display: block;
     transition: 350ms linear;
-    background-color: red;
     border-radius: 10px;
   }
   .menu span:nth-child(3) {
@@ -152,7 +162,6 @@
     height: 4px;
     display: block;
     transition: 350ms linear;
-    background-color: red;
     border-radius: 10px;
   }
   .cross :nth-child(1) {
@@ -173,7 +182,13 @@
     gap: 38px;
   }
   .pt_73 {
-    padding-top: 60px;
+    padding-top: 70px;
+  }
+  .py_29_58 {
+    padding: 90px 0;
+  }
+  .py_42_68 {
+    padding: 90px 0;
   }
   .mb_27 {
     margin-bottom: 22px;
@@ -225,6 +240,9 @@
     background-color: inherit;
     width: 100%;
   }
+  .py_58_44 {
+    padding: 90px 0;
+  }
   .py_26_88 {
     padding: 26px 0 50px;
   }
@@ -238,7 +256,7 @@
     --fs--2xl: 35px;
   }
   .pt_73 {
-    padding-top: 30px;
+    padding-top: 80px;
   }
   .my_24_48 {
     margin: 12px 0 30px;
@@ -250,7 +268,7 @@
     max-width: 100%;
   }
   .mt_97 {
-    margin-top: 60px;
+    margin-top: 80px;
   }
   .mb_27 {
     margin-bottom: 20px;
@@ -264,7 +282,7 @@
     width: 6px;
     background: #f4241e;
     top: 10px;
-    bottom: 19%;
+    bottom: 22%;
     border-radius: 10px;
     left: 2%;
     transform: translate(-50%);
@@ -281,7 +299,16 @@
     z-index: 1;
   }
   .py_73_106 {
-    padding: 70px 0;
+    padding: 80px 0;
+  }
+  .py_42_68 {
+    padding: 80px 0;
+  }
+  .py_58_44 {
+    padding: 80px 0;
+  }
+  .py_29_58 {
+    padding: 80px 0;
   }
   .roadBox {
     padding: 0 0 40px 50px;
@@ -299,7 +326,7 @@
     --fs--2xl: 31px;
   }
   .pt_73 {
-    padding-top: 30px;
+    padding-top: 70px;
   }
   .mb_27 {
     margin-bottom: 20px;
@@ -317,7 +344,13 @@
     margin-bottom: 16px;
   }
   .py_29_58 {
-    padding: 46px 0;
+    padding: 70px 0;
+  }
+  .py_42_68 {
+    padding: 70px 0;
+  }
+  .py_58_44 {
+    padding: 70px 0;
   }
   .timeline::after {
     content: "";
@@ -345,7 +378,7 @@
     margin-top: 40px;
   }
   .py_42_68 {
-    padding: 42px 0 51px;
+    padding: 70px 0;
   }
   .content {
     padding: 20px 20px;
