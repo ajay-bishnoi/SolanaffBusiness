@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+/* ----------font-weight------------ */
+
+.fw_300 {
+  font-weight: 300;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_800 {
+  font-weight: 800;
+}
+.fw_900 {
+  font-weight: 900;
+}
+.opacity_08 {
+  opacity: 0.8;
+}
+/* ------------------gap--padding- margin------ */
+.gap_24 {
+  gap: 24px;
+}
+.gap_32 {
+  gap: 32px;
+}
+.gap_38 {
+  gap: 38px;
+}
+.py_42_68 {
+  padding: 42px 0 68px;
+}
+.mt_26 {
+  margin-top: 26px;
+}
+.mb_38 {
+  margin-bottom: 38px;
+}
+.ms_10 {
+  margin-left: 10px;
+}
+.mt_97 {
+  margin-top: 97px;
+}
+.py_11 {
+  padding: 11px 0;
+}
+.pt_73 {
+  padding-top: 73px;
+}
+.py_73_106 {
+  padding: 73px 0 106px;
+}
+.py_58_44 {
+  padding: 58px 0 44px;
+}
+.pt_16 {
+  padding-top: 16px;
+}
+.py_26_88 {
+  padding: 26px 0 88px;
+}
+.gap_46 {
+  gap: 46px;
+}
+.py_29_58 {
+  padding: 29px 0 58px;
+}
+.py_115 {
+  padding: 115px 0;
+}
+.mb_31 {
+  margin-bottom: 31px;
+}
+.mb_27 {
+  margin-bottom: 27px;
+}
+.mt_52 {
+  margin-top: 52px;
+}
+.my_24_48 {
+  margin: 24px 0 48px;
+}
+.max524 {
+  max-width: 524px;
+}
+/* ---------------------------------------------Navbar------------------------ */
+.pointer {
+  cursor: pointer;
+}
+.walletBtn {
+  padding: 12px 32px;
+  border-radius: 10px;
+  background: #fff;
+  color: #f4241e;
+  transition: 350ms all linear;
+  border: none;
+}
+.walletBtn:hover {
+  background: #f4241e;
+  color: white;
+  transition: 350ms all linear;
+}
+.textbold:hover {
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #f4241e;
+}
+/* -----------------------------------/ popularized section /--------------------- */
+
+.max591 {
+  max-width: 591px;
+}
+.dscvrBtn {
+  color: white;
+  padding: 15px 32px;
+  border-radius: 10px;
+  background-color: #f4241e;
+  transition: 350ms linear;
+  border: none;
+}
+.dscvrBtn:hover {
+  color: #f4241e;
+  background-color: white;
+}
+/* ---------------------------------------/ road map /----------------------- */
+.rowgap_24 {
+  row-gap: 24px;
+}
+.timeline {
+  position: relative;
+  max-width: 1320px;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  background: #f4241e;
+  top: 1%;
+  bottom: 18%;
+  border-radius: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.roadBox {
+  padding: 0 55px 80px 0;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.content {
+  padding: 27px 23px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+/* The circles on the timeline */
+.roadBox::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  right: -18px;
+  background-color: white;
+  top: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+  padding: 0 0 80px 55px;
+}
+.right::after {
+  left: -19px;
+}
+/* ------------------------footer----------------------- */
+.max_992 {
+  max-width: 992px;
+}
+.accordion-body {
+  padding: 0 25px 19px 31px !important;
+}
+.accordion {
+  --bs-accordion-color: #fff03f !important;
+  --bs-accordion-bg: #fff03f !important;
+  --bs-accordion-btn-color: #fff03f !important;
+  --bs-accordion-btn-focus-border-color: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-body-padding-x: 0 !important ;
+  --bs-accordion-body-padding-y: 0 !important;
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+  --bs-accordion-border-color: none !important;
+}
+.accordion-button::after {
+  stroke-width: 3px !important;
+  stroke: #000 !important;
+  width: 40px !important;
+}
+.accordion-button {
+  padding: 23px 25px 21px 31px !important;
+  background-color: #fff03f !important;
+  color: black !important;
+
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+/* -------------------Position image- Road map--------------------- */
+
+.setPosition1 {
+  bottom: 10%;
+  left: 4%;
+}
+.setPosition2 {
+  bottom: 30%;
+  left: 24%;
+}
+.setPosition3 {
+  bottom: 10%;
+  right: 30%;
+}
+.setPosition4 {
+  top: 10%;
+  right: 5%;
+  z-index: 0;
+}
+.setPosition5 {
+  left: 18%;
+  top: 4%;
+  z-index: -1;
+}
+.setPosition6 {
+  top: 33%;
+  left: 5%;
+}
+.setPosition7 {
+  right: 25%;
+  z-index: 0;
+  top: 23%;
+}
+.setPosition8 {
+  bottom: 15%;
+  right: 6%;
+  z-index: 0;
+}
+.setPosition9 {
+  top: 4%;
+  left: 23%;
+  z-index: -1;
+}
+.setPosition10 {
+  bottom: 32%;
+  left: 2%;
+  z-index: -1;
+}
+.setPosition11 {
+  top: 8%;
+  right: 6%;
+  z-index: -1;
+}
+.setPosition12 {
+  bottom: 15%;
+  right: 17%;
+  z-index: -1;
+}
+.setPosition13 {
+  bottom: 32%;
+  right: 6%;
+  z-index: -1;
+}
+.setPosition14 {
+  top: 12%;
+  right: 24%;
+  z-index: -1;
+}
+.setPosition15 {
+  left: 6%;
+  top: 5%;
+  z-index: -1;
+}
+.setPosition16 {
+  bottom: 32%;
+  left: 16%;
+  z-index: -1;
+}
