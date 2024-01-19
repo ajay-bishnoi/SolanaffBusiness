@@ -119,7 +119,9 @@
 }
 .textbold:hover {
   -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: #f4241e;
+}
+.textbold:hover {
+  color: #f4241e;
 }
 /* -----------------------------------/ popularized section /--------------------- */
 
